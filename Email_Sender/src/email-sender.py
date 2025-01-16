@@ -12,15 +12,19 @@ import smtplib
 
 
 email_sender ='giuseppemuia2005@gmail.com'#my personal email
-email_password=''#the 16 digit email password
-email_receiver=''#email sender 
+email_password=''#the 16 digit email password once you have turned on 2-step verification and started an app
+email_receiver=''#email reciever
 
 
-subject="Check this"
+subject="Check this"#this is the subject of your email
 
+
+#this is the body of your email
 body="""
     This is sent by python
 """
+
+
 em = EmailMessage()
 
 em['From'] = email_sender
